@@ -1,0 +1,36 @@
+.header {
+  height: auto;
+  padding: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-header ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-header li {
+  list-style: none;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: inline-flex;
+  gap: 400px;
+}
+
+.menu-header li:hover {
+  color: red;
+}
+
+.adbutton {
+  float: right;
+}
+
+.YaGO {
+  color: #959595;
+}
+/*
+.main1-colums1-text-h1 {
+  color: #fff;
+}
+*/
