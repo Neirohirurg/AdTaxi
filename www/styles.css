@@ -60,11 +60,51 @@
   transform: scale(1.1);
 }
 
-/*.YaGO {
-  color: #959595;
+/* main1*/
+
+.main1 {
+    display: flex;
+    
 }
-/*
+
+/* main1-colums1 */
+
+.main1-colums1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.main1-colums1-text {
+    background: #333333;
+
+}
+
+.YaGO {
+  color: #9a9a9a;
+}
+ 
 .main1-colums1-text-h1 {
-  color: #fff;
+  color: #fafafa;
 }
-*/
+
+.main1-colums1-text-p {
+    color: #d3d8d4;
+}
+
+.main1-colums1-button button{
+    background: #fad459;
+    width: 100%;
+    
+}
+
+/*main1-colums2*/
+
+.main1-colums2 img{
+    width: 100%;
+    
+}
+
+.commentbutton {
+    float: right;
+}
+
