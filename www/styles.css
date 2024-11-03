@@ -66,7 +66,7 @@ body {
 }
 
 .navbar button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: pointer;
 }
 
@@ -74,13 +74,10 @@ body {
 
 .container1 {
   display: flex;
-  width: 100%;
-  padding: 0 20px;
-  min-height: 90vh; /* Занимает 100% высоты экрана */
-  flex-grow: 1;
-  gap: 20px; /* Отступы между колонками */
-  overflow-y: auto; /* Позволяет прокручивать страницу */
+  padding: 25px;
+  gap: 20px;
 }
+
 .column1 {
   width: calc(50% - 15px); /* Учтем отступ */
   position: relative;
@@ -132,9 +129,10 @@ body {
   border-radius: 20px;
 }
 .column1 img {
-  width: auto;
-  height: auto;
-  margin: 0 30px;
+  width: 100%;
+  height: 100%;
+  
+  border-radius: 20px;
 }
 
 .column1 a {
@@ -161,18 +159,43 @@ body {
   opacity: 0.8;
 }
 
-.comment-button {
-  margin: 30px;
-  float: right;
-}
+/* 2 блок */
 
 .precontainer2 {
   margin: 0;
   padding: 0;
-  height: 80vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.comment-button{
+  align-self: flex-end;
+  margin: 30px;
+}
+.comment-button button{
+  background-color: white;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-button button:hover {
+  transform: scale(1.1);
+  transition: all .6s;
+}
+.comment-button img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.container-2-h1 {
+  align-self: center;
+  width: calc(100% - 200px);
+  font-size: larger;
+  margin-bottom: 5vh;
 }
 
 .container2 {
@@ -180,9 +203,9 @@ body {
   grid-template-columns: repeat(2, 1fr); /* Две колонки */
   grid-template-rows: repeat(2, 1fr); /* Две строки */
   gap: 20px; /* Отступ между блоками */
-  padding: 20px; /* Внутренний отступ */
-  width: calc(70% - 200px); /* Учитываем отступы по 100px с каждой стороны */
-  height: calc(80% - 120px); /* Учитываем отступы по 60px сверху и снизу */
+  margin-bottom: 20px;
+  width: calc(99% - 200px); /* Учитываем отступы по 100px с каждой стороны */
+  height: calc(60% - 120px); /* Учитываем отступы по 60px сверху и снизу */
 }
 
 .block {
