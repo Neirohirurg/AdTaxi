@@ -165,3 +165,51 @@ body {
   margin: 30px;
   float: right;
 }
+
+.precontainer2 {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Две колонки */
+  grid-template-rows: repeat(2, 1fr); /* Две строки */
+  gap: 20px; /* Отступ между блоками */
+  padding: 20px; /* Внутренний отступ */
+  width: calc(70% - 200px); /* Учитываем отступы по 100px с каждой стороны */
+  height: calc(80% - 120px); /* Учитываем отступы по 60px сверху и снизу */
+}
+
+.block {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для блоков */
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;  Центрирование содержимого */
+  /*justify-content: center;  Центрирование содержимого по вертикали */
+  padding: 20px;
+  height: 100%; 
+  box-sizing: border-box; /* Чтобы padding не добавлялся к высоте и ширине */
+}
+
+
+.container2 img {
+  max-width: 100%; /* Ширина изображения */
+  height: auto; /* Автоматическая высота */
+  border-radius: 10px; /* Закругление углов изображения */
+  margin-top: 10px; /* Отступ сверху для изображения */
+}
+
+.container2 h2 {
+  margin: 10px 0;
+}
+
+.container2 p {
+  margin: 5px 0;
+}
