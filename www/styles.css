@@ -131,7 +131,7 @@ body {
 .column1 img {
   width: 100%;
   height: 100%;
-  
+
   border-radius: 20px;
 }
 
@@ -164,7 +164,7 @@ body {
 .precontainer2 {
   margin: 0;
   padding: 0;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ body {
   /*align-items: center;  Центрирование содержимого */
   /*justify-content: center;  Центрирование содержимого по вертикали */
   padding: 20px;
-  height: 100%; 
+  height: 100%;
   box-sizing: border-box; /* Чтобы padding не добавлялся к высоте и ширине */
 }
 
@@ -235,4 +235,59 @@ body {
 
 .container2 p {
   margin: 5px 0;
+}
+
+.container3 {
+  width: calc(99% - 200px); /* Ширина нового контейнера */
+  margin: 20px 0; /* Отступ сверху и снизу для нового контейнера */
+  display: flex;
+  flex-direction: column;
+}
+
+.blocks2 {
+display: flex; /* Выстраиваем блоки в линию */
+justify-content: space-between; /* Распределяем пространство между блоками */
+width: 100%; /* Блоки занимают всю ширину контейнера */
+background-color: #ffffff;
+}
+
+.block2 {
+border-radius: 10px; /* Закругление углов */
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для блоков */
+display: flex;
+flex-direction: column;
+padding: 20px; /* Внутренний отступ */
+flex: 1; /* Блоки займут равное пространство */
+margin: 0 10px; /* Отступ между блоками */
+height: auto;
+}
+
+.block2 img {
+width: 50px; /* Ширина иконки */
+height: 50px; /* Высота иконки */
+align-self: flex-start; /* Выравнивание иконки влево */
+}
+.container3 h2 {
+margin: 10px 0; /* Указание отступа сверху и снизу */
+}
+
+.container3 h4 {
+display: flex; /* Чтобы элементы внутри заголовка располагались в ряд */
+justify-content: space-between; /* Распределяем пространство между заголовком и значением */
+margin: 10px 0; /* Указание отступа сверху и снизу у заголовка блока */
+}
+
+.stats {
+display: flex; /* Выравнивание текста в одну линию */
+justify-content: flex-end; /* Выравнивание значений вправо */
+width: 100%; /* Занимаем всю ширину блока */
+margin-top: 10px; /* Небольшой отступ сверху */
+}
+
+.line {
+margin: 10px 0; /* Отступ для линии */
+}
+
+.container3 p {
+margin: 5px 0; /* Указание отступа сверху и снизу для текста под линией */
 }
