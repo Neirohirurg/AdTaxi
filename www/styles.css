@@ -1,16 +1,10 @@
 
 body {
-<<<<<<< HEAD
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  overflow-x: hidden;
-
-=======
-    display: flex;
-    flex-direction: column;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x:;
->>>>>>> 95eba79a5c8b5fde69dc9675dc01064eefad633a
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -72,13 +66,12 @@ body {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
+
 .navbar button:hover {
   transform: scale(1.05);
-=======
+}
 button:hover {
   transform: scale(1.025);
->>>>>>> 95eba79a5c8b5fde69dc9675dc01064eefad633a
   cursor: pointer;
 }
 
@@ -90,7 +83,6 @@ button:hover {
   gap: 20px;
 }
 
-<<<<<<< HEAD
 .column1 {
   width: calc(50% - 15px); /* Учтем отступ */
   position: relative;
