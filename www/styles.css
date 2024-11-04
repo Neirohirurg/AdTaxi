@@ -385,3 +385,97 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Тень для изображения */
   max-width: 100%; /* Максимальная ширина изображения */
 }
+
+footer {
+  color: #333;
+  font-size: 14px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.footer-block {
+  width: 30%;
+}
+.footer-email{
+  text-decoration: none;
+  color: #333;
+
+}
+
+.footer-block h3 {
+  margin-bottom: 10px;
+}
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  display: block; /* Блоковый элемент для ссылок, чтобы занимали всю ширину */
+  margin-bottom: 5px; /* Отступы между ссылками */
+}
+.footer-links a:hover {
+  ext-decoration: underline; /* Подчеркивание при наведении */
+}
+.footer-small-text {
+  font-size: 12px; /* Размер шрифта для мелкого текста */
+  color: rgba(0, 0, 0, 0.7); /* Белый с эффектом размытия */
+  margin-top: 10px; /* Отступ сверху для мелкого текста */
+}
+
+.container5 {
+  width: calc(80% - 200px);
+  max-width: 1200px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.container5 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+.container5 p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.step-block {
+  width: calc(23% - 10px); /* Ширина блока с учетом отступов */
+  height: 200px; /* Высота блока */
+  background-color: #f9f9f9;
+  padding: 40px 10px 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative; /* Относительное позиционирование для номера */
+  display: flex; /* Используем flexbox для внутреннего содержимого */
+  flex-direction: column; /* Вертикальное расположение содержимого */
+  justify-content: flex-start; /* Выравнивание содержимого сверху */
+}
+
+.step-number {
+  position: absolute; /* Абсолютное позиционирование номера */
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: yellow; /* Цвет квадрата */
+  color: black;
+  display: flex; /* Центрирование числа */
+  align-items: center; /* Вертикальное выравнивание */
+  justify-content: center; /* Горизонтальное выравнивание */
+  border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+  z-index: 1; /* Установка порядка наложения, чтобы квадрат был сверху */
+}
